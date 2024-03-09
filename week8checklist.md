@@ -83,7 +83,7 @@ Description: Initiation of Remote Desktop to Virtual Machine
 
 
 
-Publishing Canada service to Arcgis server on GCP Virtual machine
+Description: Publishing Canada service to Arcgis server on GCP Virtual machine
 •	I create a folder in the name of gisworkspace in the system folder in local computer, and then inside the gisworkspace folder, I then create a sub folder in the name of Canada and inside the sub folder I pasted it out the data which I copied from my remote desktop provided by my instructor. 
 •	In my remote desktop, I went to the system folder and find the folder name gisworkspace and inside I pasted it out the data in the folder name Canada. Just to match the folder location of the data in my remote desktop as well as the local computer. 
 •	I log into my arcgis pro and then create a project, then add canada’s shapefile, I went to the connection from Insert tab and then choose server, click on new arcgis server and then I pasted it out my external IP address from virtual machine, for example: https://35.192.183.147:6443/arcgis in the URL section, provided the username and password. Finally, it creates my arcgis server on the arcgis pro. 
