@@ -1,6 +1,9 @@
  Description: Creating a technical log for week 7 checklist 
 •	setting up of technical log through excel sheet
 
+
+
+
 Description: Creating a google cloud console 
 This was done in the week 5 & 6. I request my credits and provide my Google (Gmail) email address to the instructor. I then Followed these short steps to complete this task:
 •	First, I need to have e-mail account and follow the provided link to get Google Cloud Platform (CGP) credit and fill in the form.
@@ -8,11 +11,17 @@ This was done in the week 5 & 6. I request my credits and provide my Google (Gma
 •	Still on Fleming’s email account, I need to check (spam) folder for another email now containing the credit code string. I can then follow the steps to apply the credit to my personal Gmail account.
 •	Once completed, this should create a new GCP billing project My First Project and assign the academic credits to this project.
 
+
+
+
 Description: Creating a project in google cloud platform 
 •	First step is to log in through the console.cloud.google.com by putting up the e-mail which has google credit. 
 •	To create a project (if not automatically created) then click on the project list and click New Project. 
 •	By clicking on the New Project link top-right of the window. The new project window will appear. 
 •	Enter a project name for your content. Set an account as an individual one, so no organization will be set.
+
+
+
 
 
 Description: Creating a virtual machine
@@ -33,9 +42,12 @@ Description: Creating a virtual machine
 •	Any Fleming Campus computer: 142.237.0.0/16 
 •	A specific computer network, like at home: Enter your public IP number. An example is 24.242.25.53 (just google whatsmyip to see yours). Note this number should never start with 192.168.x.x or 10.x.x.x where x is any number from 0 through 255 as those are special internal-only numbers. 
 •	Any computer on the internet (no restrictions): 0.0.0.0/0 
-•	Next, set the port to be 444. This again is not the normal RDP port (remote desktop protocol), the default is 3389 (remember this!). But to facilitate on-campus students, this port default has changed to be 444 for this custom image virtual machine. 26.
+•	Next, set the port to be 444. This again is not the normal RDP port (remote desktop protocol), the default is 3389 (remember this!). But to facilitate on-campus students, this port default has changed to be 444 for this custom image virtual machine. 
 •	Now click Create to make this rule and apply it to all VMs on our project.
-•	
+
+
+
+
 Description: Setting a GCP Firewall Rule to allow ArcGIS Server Management Ports 
 •	ArcGIS Server management has two ports, 6443 and 6080, both of which are not open by default Google Cloud Platform firewall rules. Before any request to these ports is permitted from outside of the VM, they must be enabled as open.
 •	In GCP’s console open Firewall under the main category VPC network and click Create Firewall Rule. • Name your firewall rule arcgisserveradmin (any name will be accepted, but for instructor support we named as above). 
@@ -55,6 +67,10 @@ Description: Shutting down or starting Virtual Machine on GCP
 •	Under the list of instances find the one you wish to start and confirm it is not currently running. The status should show a stopped icon. This means it is not running. 
 •	On the rightmost side click the vertical … to open the control menu. Click Start / Resume on the menu that appears to start up the stopped VM. 
 •	Confirm you wish to start the VM and give it a moment to initiate the start-up. The status will turn to a green checkbox and an external IP will be assigned.
+
+
+
+
 Description: Initiation of Remote Desktop to Virtual Machine
 •	We have to find the running VM External IP number from the GCP Compute Engine console. 
 •	On Windows desktop locally, start the Remote Desktop Connection tool by clicking Start and typing Remote Desktop Connection (or mstsc for the short name). 
@@ -62,6 +78,11 @@ Description: Initiation of Remote Desktop to Virtual Machine
 •	The system will then ask you for your credentials. Note this dialog will be different depending on your computers’ network. You may need to select More Choices to specify a username. 
 •	Enter Student and then the password you wrote down earlier when creating the virtual machine. • Once entered, click OK and then the connection will be made and, if the server can be found and 444 port accessed, will prompt with this. Click Yes. 
 •	Now we will have the remote desktop window open . This is the computer we created located in Iowa.
+
+
+
+
+
 Publishing Canada service to Arcgis server on GCP Virtual machine
 •	I create a folder in the name of gisworkspace in the system folder in local computer, and then inside the gisworkspace folder, I then create a sub folder in the name of Canada and inside the sub folder I pasted it out the data which I copied from my remote desktop provided by my instructor. 
 •	In my remote desktop, I went to the system folder and find the folder name gisworkspace and inside I pasted it out the data in the folder name Canada. Just to match the folder location of the data in my remote desktop as well as the local computer. 
