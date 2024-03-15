@@ -120,3 +120,20 @@ This was done in the week 5 & 6. I request my credits and provide my Google (Gma
 •	And make sure to check on the remote desktop services directory. 
 •	Very Important point to remember, whenever you shut down your virtual machine, then it will generate new external IP address, copy the new IP address and replace the old Address and make sure you also log in to the remote desktop. (Think like you are waking up the system)
 
+
+
+**Developing Problem Statement**
+Discussing and sharing ideas among the group members and finally comes with a project proposal
+
+
+
+**Meeting with instructor**
+Where the instructor decline our Proposal due to unavailibility of datasets
+
+
+ 
+
+ 
+
+ 
+
